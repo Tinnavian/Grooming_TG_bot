@@ -34,22 +34,22 @@ source venv/bin/activate  # На Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Создай файл .env в корне проекта
-вставь туда вот это:
-BOT_TOKEN=YOUR_BOT_TOKEN_HERE
-ADMIN_IDS=YOUR_TELEGRAM_ID,OTHER_ADMIN_ID
+#вставь туда вот это:
+#BOT_TOKEN=YOUR_BOT_TOKEN_HERE
+#ADMIN_IDS=YOUR_TELEGRAM_ID,OTHER_ADMIN_ID
 
-Где получить:
+#Где получить:
 
-BOT_TOKEN: От @BotFather в Telegram
+#BOT_TOKEN: От @BotFather в Telegram
 
-ADMIN_IDS: От @userinfobot в Telegram
+#ADMIN_IDS: От @userinfobot в Telegram
 
 # Запуск
 
 python3 run_server.py
 
-Бот запустится на:
+#Бот запустится на:
 
-📱 Telegram: @YourBotName
+#📱 Telegram: @YourBotName
 
-🌐 Web-панель: http://localhost:8000
+#🌐 Web-панель: http://localhost:8000
